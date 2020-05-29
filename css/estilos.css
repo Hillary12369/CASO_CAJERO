@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(0, 60, 255, 0.24);
+}
+.pantalla{ 
+    width: 450px;
+    height: 245px;
+    background-image:linear-gradient(to bottom,rgba(250, 250, 98, 0.911),rgb(255, 246, 163) ) ;
+    margin: 5px 10px 5px 10px;
+    border: rgba(97, 96, 96, 0.863) 10px solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 19px;
+}
+.caja-principal{
+    width: 640px;
+    height: 550px;
+    background-color: rgb(66, 9, 9);
+    background-image: linear-gradient(to bottom, rgb(139, 139, 139), rgb(153, 150, 150));
+    margin: auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.caja-superior{
+    width: 610px;
+    height: 290px;
+    padding: 0px 15px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#titulo{
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+}
+#caja-password{
+    width: 250px;
+    padding: 5px 5px 5px 5px;
+    margin-top: 8px;
+    border: rgb(255, 196, 0) 2.5px solid;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#contraincorrecta{
+    margin-top: 20px;
+    padding-top: 25px;
+    text-align: center;
+    width: 420px;
+    height: 70px;
+    color: rgba(255, 0, 0, 0.904);
+    display: none;
+}
+#article1{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+#article2{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+.botones-top1-3{
+    width: 55px;
+    height: 31px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border-radius: 15px ;
+    border: rgb(0, 0, 0) 1.5px solid;
+    background-image: linear-gradient(to top, black, rgb(97, 97, 97));
+}
+.botones-top4-6{
+    width: 55px;
+    height: 31px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border-radius: 15px ;
+    border: rgb(0, 0, 0) 1.5px solid;
+    background-image: linear-gradient(to top, black, rgb(97, 97, 97));
+    
+}
+.caja-inferior{
+    width: 610px;
+    height: 220px;
+    padding: 0px 15px 10px 15px;
+    display: flex;
+}
+.numeros{
+    width: 190px;
+    height: 350;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.opciones{
+    width: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.valid_mul{
+    font-size: 20px;
+    font-style: italic;
+    display: none;
+    
+}
+.relleno{
+    width: 305px;
+    border: 2px black solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.botones-numero{
+    width: 47px;
+    height: 40px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 7px;
+    border: rgba(0, 0, 0, 0.719) 1px solid;
+    background-image: linear-gradient(to top, rgb(161, 161, 161), white);
+    font-size: 20px;
+    font-weight: bold;
+}
+.boton-op{
+    width: 96px;
+    height: 40px;
+    border-radius: 15px;
+    border: rgba(0, 0, 0, 0.795) 2px solid;
+    margin: 5px 5px 5px 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.opciones #cancel{
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+.opciones #clear{
+    background-color:rgb(255, 166, 0);
+    color: rgb(255, 255, 255);
+}
+.opciones #ok{
+    background-color: rgb(112, 187, 0);
+    color: rgb(255, 255, 255);
+}
+.opciones #void{
+    border: none;
+    background-color: rgba(109, 109, 109, 0.836);
+}
+.relleno .cajitas{
+    width: 96px;
+    height: 50px;
+    border: 1px black solid;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    font-weight: bold;
+}
+.relleno #card{
+    width: 100px;
+    height: 40px;
+}
+.relleno #receipt{
+    width: 140px;
+    height: 40px;
+}
+.relleno #cash{
+    width: 270px;
+    height: 40px;
+}
+.relleno #deposit{
+    width: 270px;
+    height: 40px;  
+}
+.pantalla-menu{ 
+    width: 480px;
+    height: 240px;
+    background-image:linear-gradient(to bottom,rgb(250, 250, 98),rgb(255, 246, 163) ) ;
+    margin: 5px 10px 5px 10px;
+    border: rgb(97, 96, 96) 10px solid;
+    border-radius: 8px;
+    padding: 14px 0px 14px 0px;
+    font-size: 20px;
+}
+#titulo-menu{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+#titulo-menu-gracias{
+    
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.opciones-principal{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 0px;
+}
+.opciones-p4{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 0px;
+    justify-content: flex-end;
+}
+.opciones-der{ 
+    text-align: right;
+    width: 180px;
+}
+.opciones-der4{
+    margin-right: 13px;
+    font-size: 23px;
+    margin-top: 45px;
+    text-align: right;
+    width: 180px;
+}
+.opciones-izq p{
+    margin-top: 28px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.opciones-der p{
+    margin-top: 28px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.opciones-der1 p{
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.figura-izq{
+    height: 190px;
+    padding-top: 5px;
+}
+.opciones-p2{
+    display: flex;
+    justify-content: space-between;
+}
+.figura-der3{
+    height: 190px;
+    padding-top: 5px;
+}
+.opciones-izq3{
+    display: flex;
+    text-align: left;
+    width: 100px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.opciones-der3{
+    display: flex;
+    align-content: right;
+    width: 100px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    text-align: right;
+    clear: both;
+    width: 120px;
+}
+.opciones-izq3 p{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 10px ;
+}
+.opciones-der3 p{
+    width: 200px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
+}
+.opciones-p3{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#DER{
+    width: 150x;
+    display: flex;
+    height: 215px;
+}
+#IZQ{
+    width: 120px;
+    display: flex;
+}
+.botones-top-2{
+    width: 55px;
+    height: 31px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    border-radius: 7px ;
+    border: rgb(0, 0, 0) 1.5px solid;
+    background-image: linear-gradient(to top, black, rgb(97, 97, 97));
+}
+.opciones-der4{
+    display: flex;
+    align-content: right;
+    width: 100px;
+    flex-wrap: wrap;
+    margin-top: 26px;
+    text-align: right;
+    clear: both;
+    width: 120px
+
+}
+.opciones-der4 p{
+    width: 200px;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 22px;
+}
+.figura-der4{
+    display: flex;
+    align-items: flex-end;
+    height: 150px;
+    padding-top: 8px;
+}
